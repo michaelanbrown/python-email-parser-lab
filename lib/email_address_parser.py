@@ -15,4 +15,4 @@ class EmailAddressParser:
             if self.email_regex.fullmatch(string):
                 parsed_emails.add(string)
 
-        return parsed_emails
+        return list(parsed_emails)

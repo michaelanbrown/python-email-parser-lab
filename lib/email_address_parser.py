@@ -9,3 +9,5 @@ class EmailAddressParser:
 
     def parse(self):
         strings = re.split(r',|\s', self.emails)
+
+        parsed_emails = set()

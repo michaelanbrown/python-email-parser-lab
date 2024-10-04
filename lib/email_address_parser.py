@@ -8,3 +8,4 @@ class EmailAddressParser:
         self.emails = emails
 
     def parse(self):
+        strings = re.split

@@ -13,3 +13,4 @@ class EmailAddressParser:
         parsed_emails = set()
         for string in strings:
             if self.email_regex.fullmatch(string):
+                parsed_emails.add(string)
